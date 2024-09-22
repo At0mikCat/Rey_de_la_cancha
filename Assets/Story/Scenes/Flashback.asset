@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Flashback
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\xA1QUE BUEN REMATE TOM\xC1S!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 4f2ffa1515d898845b46953fff71c79b, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Cuando grande dem\xE1s que eres parte del equipo nacional, juegas muy
+      bien."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 4f2ffa1515d898845b46953fff71c79b, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tambi\xE9n juegas bien, deber\xEDas jugar m\xE1s seguido."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 607ee6ee26763cc489007190bffe9b72, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Mi mam\xE1 dice que tengo que ponerme las pilas con el cole."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 4f2ffa1515d898845b46953fff71c79b, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Que raro, la m\xEDa dice que siga jugando."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 607ee6ee26763cc489007190bffe9b72, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tu mam\xE1 es una rara."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 607ee6ee26763cc489007190bffe9b72, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Qu\xE9 dices, disculpate."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 4f2ffa1515d898845b46953fff71c79b, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: jajajaja.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 607ee6ee26763cc489007190bffe9b72, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oye mi mam\xE1 me va a inscribir a un club, \xBFquieres venir conmigo?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 607ee6ee26763cc489007190bffe9b72, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tu mam\xE1 ya  le pregunt\xF3 a la mi\xE1, no puedo."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 4f2ffa1515d898845b46953fff71c79b, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xBFComo que no puedes?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 607ee6ee26763cc489007190bffe9b72, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "No puedo po, no todos tenemos plata como t\xFA."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 4f2ffa1515d898845b46953fff71c79b, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xA1ERES UN TONTO!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 607ee6ee26763cc489007190bffe9b72, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s corre en direcci\xF3n a su casa mientras llora, se sinti\xF3
+      traicionado debido a las hirientes palabras de Jos\xE9."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: e517714c4d41aeb46a5d88ac10505411, type: 3}
+  nextScene: {fileID: 11400000, guid: 9cf24c9869818b84e8dad0a3e8ec1dc2, type: 2}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: "Jos\xE9"
+  m_EditorClassIdentifier: 
+  speakerName: "Jos\xE9"
+  textColor: {r: 1, g: 1, b: 1, a: 0}
+  sprites:
+  - {fileID: 642222529, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
+  - {fileID: 16412922, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
+  - {fileID: 914646193, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
+  - {fileID: -1072757478, guid: 966a55fbb13ea2542b159dbda7537d11, type: 3}
+  - {fileID: -1010743498, guid: 966a55fbb13ea2542b159dbda7537d11, type: 3}
+  - {fileID: 1912392059, guid: 966a55fbb13ea2542b159dbda7537d11, type: 3}
+  - {fileID: 1124415998, guid: da67581166e708e419c4103a8eb317c8, type: 3}
+  - {fileID: -1947159716, guid: da67581166e708e419c4103a8eb317c8, type: 3}
+  - {fileID: -1425928067, guid: da67581166e708e419c4103a8eb317c8, type: 3}
+  - {fileID: -32101980, guid: a87c4057f182e5144b517a2403ce9c68, type: 3}
+  - {fileID: 1584853410, guid: a87c4057f182e5144b517a2403ce9c68, type: 3}
+  - {fileID: -2132806150, guid: a87c4057f182e5144b517a2403ce9c68, type: 3}
+  - {fileID: 142572172, guid: 5119e78c9acd03546a75e0b6b3d34307, type: 3}
+  - {fileID: -368641501, guid: 5119e78c9acd03546a75e0b6b3d34307, type: 3}
+  - {fileID: 259023018, guid: 5119e78c9acd03546a75e0b6b3d34307, type: 3}
+  - {fileID: 53329187, guid: 9d267787bdc911943bd36194a38a361e, type: 3}
+  - {fileID: 845944152, guid: 9d267787bdc911943bd36194a38a361e, type: 3}
+  - {fileID: -1922146411, guid: 9d267787bdc911943bd36194a38a361e, type: 3}
+  - {fileID: 1268247535, guid: 27b689771bb4d4046909645650a6297c, type: 3}
+  prefab: {fileID: 2107189958493494109, guid: 0f72a727f6f988640a7ae76dc47e1510, type: 3}

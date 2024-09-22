@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Valla bueno
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Buen trabajo chicos, ya pueden irse a sus casas y recuerden llevarse sus
+      bolsos para que el conserje no se los lleve jajaja.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s recoje su bolso y se va en direcci\xF3n a su casa."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 36191fb7ebdadb34a96cefc60c889178, type: 3}
+  nextScene: {fileID: 11400000, guid: b073eab445d9c5e4ba3d1a228bedc84b, type: 2}

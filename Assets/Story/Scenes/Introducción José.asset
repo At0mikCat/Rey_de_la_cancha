@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: "Introducci\xF3n Jos\xE9"
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\xA1DALE JOS\xC9, SALTA!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Jos\xE9 da un salto increible y remata tan fuerte que los rivales no son
+      capaces de reaccionar."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xA1DALE JOS\xC9!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Que eri seco Jos\xE9."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Gracias cabros, sigamos as\xED que nos queda poco de partido."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "El partido contin\xFAa y Jos\xE9 anota puntos como cualquier otro d\xEDa,
+      su fervor se notaba en el aire."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "A pesar de que su equipo sab\xEDa que era un buen rematador, ese d\xEDa
+      estaba sacando lo mejor de \xE9l."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: uff, estoy molido.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: jajaja, normal si lo diste todo en la cancha.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Si, es que dentro de poco nos toca jugar en el torneo de verano. Tenemos
+      que seguir mejorando para que podamos ganar.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Toda la raz\xF3n, hay que ponerse las pilas con el entrenamiento para
+      no dar la cacha."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Buen partido cabros, falta poco para el torneo de verano. Pero vamos a
+      muy buen ritmo con el entrenamiento.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xBFPara celebrar les tinca si vamos a comer completos?, yo los invito."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sii, muchas gracias Ricardo.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Jajaja, \xBFes una disculpa por hacernos polvo con los entrenamientos?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Dalee, te pasaste Ricardo.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 28c44b0e4431c6b48a113c2c46fc06c3, type: 3}
+  nextScene: {fileID: 11400000, guid: 305ac7fb27899424d9532e918a329e17, type: 2}

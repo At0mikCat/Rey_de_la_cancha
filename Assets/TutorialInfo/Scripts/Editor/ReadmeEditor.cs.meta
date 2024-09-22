@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/CircuitMinigame/PlayerCircuit.cs.meta
+guid: a91710c5ac64d4f4e9d17fafdc43eab4
+========
+guid: 476cc7d7cd9874016adc216baab94a0a
+timeCreated: 1484146680
+licenseType: Store
+>>>>>>>> parent of a87bcacf (a):Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

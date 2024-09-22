@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: Completos
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Cuando llegaron al local, cada uno se pidi\xF3 un completo y se sentaron
+      en la mesa a conversar."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Oigan cabros saben que estaba hablando con varios clubes para conseguirnos
+      partidos de entrenamiento. Porque ustedes saben que eso nos falta.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Estuve hablando en especial con el club Nido de C\xF3ndor, pero dijeron
+      que no val\xEDa la pena pr\xE1cticar con gente como nosotros. Pero no se preocupen,
+      seguir\xE9 buscando. "
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "(Ese es el club en el que est\xE1 Tom\xE1s, quiz\xE1s deber\xEDa hablarle
+      para ver si nos puede conseguir un partido de pr\xE1ctica.)"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Al terminar de comer los completos, todos se van a sus casas y por el
+      camino Jos\xE9 piensa sobre escribirle a Tom\xE1s."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 10fabcad67838fc4483656ea3a8e68d3, type: 3}
+  nextScene: {fileID: 11400000, guid: b2366f601e6d61248be20da2abbc2b94, type: 2}

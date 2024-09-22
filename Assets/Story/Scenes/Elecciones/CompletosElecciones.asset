@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: CompletosElecciones
+  m_EditorClassIdentifier: 
+  labels:
+  - text: "Jos\xE9 decide escribirle a Tom\xE1s para coordinar un partido de entrenamiento."
+    nextScene: {fileID: 11400000, guid: 6f48821a88bfaf74fbbba3486fe860c4, type: 2}
+  - text: "Al recordar como trat\xF3 a Tom\xE1s cuando eran ni\xF1os, decide no contactarlo
+      para no provocar discusiones. "
+    nextScene: {fileID: 11400000, guid: 051ebacd87ef16e4f8159098977a0666, type: 2}
