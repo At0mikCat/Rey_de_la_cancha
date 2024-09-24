@@ -408,6 +408,7 @@
 "Assets/Scripts/Entities/Speaker.cs"
 "Assets/Scripts/Entities/StoryScene.cs"
 "Assets/Scripts/General/Buttons.cs"
+"Assets/Scripts/General/MainMenuAnimations.cs"
 "Assets/Scripts/Models/SaveData.cs"
 "Assets/Scripts/ShotMinigame/BallsGenerator.cs"
 "Assets/Scripts/ShotMinigame/FailCounter.cs"

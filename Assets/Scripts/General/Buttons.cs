@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
+
+    public GameObject panelPause;
+    public GameObject resume;
+
     public void GoToMainMenu()
     {
         SceneManager.LoadScene("Menu");
@@ -28,5 +32,19 @@ public class Buttons : MonoBehaviour
     public void GoToCircuitMinigame()
     {
         SceneManager.LoadScene("CircuitTraining");
+    }
+
+    public void PauseNow()
+    {
+        Time.timeScale = 0;
+        panelPause.SetActive(true);
+        resume.SetActive(false);
+    }
+
+    public void ResumeNow()
+    {
+        Time.timeScale = 1;
+        panelPause.SetActive(false);
+        resume.SetActive(true);
     }
 }

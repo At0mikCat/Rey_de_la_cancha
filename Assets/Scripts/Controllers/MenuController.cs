@@ -49,6 +49,12 @@ public class MenuController : MonoBehaviour
         _window = 1;
      }
 
+    public void HideOptions()
+    {
+        animator.SetTrigger("HideOptions");
+        _window = 0;
+    }
+
     public void Quit()
     {
         Application.Quit();
