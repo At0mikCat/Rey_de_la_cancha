@@ -118,7 +118,12 @@ MonoBehaviour:
       muy buen ritmo con el entrenamiento.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "\xBFPara celebrar les tinca si vamos a comer completos?, yo los invito."
@@ -130,7 +135,12 @@ MonoBehaviour:
   - text: Sii, muchas gracias Ricardo.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Jajaja, \xBFes una disculpa por hacernos polvo con los entrenamientos?"
@@ -148,11 +158,6 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 1
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 28c44b0e4431c6b48a113c2c46fc06c3, type: 3}

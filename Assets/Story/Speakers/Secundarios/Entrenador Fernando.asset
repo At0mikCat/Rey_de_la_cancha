@@ -15,5 +15,5 @@ MonoBehaviour:
   speakerName: Entrenador Fernando
   textColor: {r: 1, g: 1, b: 1, a: 0}
   sprites:
-  - {fileID: 21300000, guid: 82ac8bc777cd50b498fd9bd567bb872b, type: 3}
-  prefab: {fileID: 7596700553784574576, guid: d8eb5b99716c69c41906fd0f073a4dab, type: 3}
+  - {fileID: -1874680964, guid: b517f226ba5e079438785951e6249b38, type: 3}
+  prefab: {fileID: 2107189958493494109, guid: 647cbceb54c0b53418d245bb48cc63d4, type: 3}
