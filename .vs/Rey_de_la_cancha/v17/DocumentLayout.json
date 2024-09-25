@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|c:\\users\\marce\\onedrive\\documentos\\github\\rey_de_la_cancha\\assets\\scripts\\general\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|c:\\users\\marce\\onedrive\\documentos\\github\\rey_de_la_cancha\\assets\\scripts\\circuitminigame\\playercircuit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\circuitminigame\\playercircuit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\assets\\scripts\\shotminigame\\ballsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shotminigame\\ballsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\assets\\scripts\\shotminigame\\playershot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shotminigame\\playershot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\assets\\scripts\\general\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\assets\\scripts\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\assets\\scripts\\general\\cooldownforminigames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\general\\cooldownforminigames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60000AFD-1F81-61D8-4F5B-1214F692F554}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\assets\\scripts\\general\\mainmenuanimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,36 +38,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerShot.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\ShotMinigame\\PlayerShot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShotMinigame\\PlayerShot.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\ShotMinigame\\PlayerShot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShotMinigame\\PlayerShot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:54:50.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BallsGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\ShotMinigame\\BallsGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShotMinigame\\BallsGenerator.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\ShotMinigame\\BallsGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShotMinigame\\BallsGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:53:36.825Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerCircuit.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\CircuitMinigame\\PlayerCircuit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CircuitMinigame\\PlayerCircuit.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\CircuitMinigame\\PlayerCircuit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CircuitMinigame\\PlayerCircuit.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:19:58.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CooldownForMinigames.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\General\\CooldownForMinigames.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\General\\CooldownForMinigames.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\General\\CooldownForMinigames.cs",
+              "RelativeToolTip": "Assets\\Scripts\\General\\CooldownForMinigames.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:10:50.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Buttons.cs",
               "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\General\\Buttons.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\Buttons.cs",
               "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\General\\Buttons.cs",
               "RelativeToolTip": "Assets\\Scripts\\General\\Buttons.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowC8AAAAfAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:14:24.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T02:14:24.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MenuController.cs",
               "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\MenuController.cs",
               "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\Controllers\\MenuController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controllers\\MenuController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDcAAAAFAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAlwBYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T01:55:53.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainMenuAnimations.cs",
               "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GitHub\\Rey_de_la_cancha\\Assets\\Scripts\\General\\MainMenuAnimations.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\General\\MainMenuAnimations.cs",

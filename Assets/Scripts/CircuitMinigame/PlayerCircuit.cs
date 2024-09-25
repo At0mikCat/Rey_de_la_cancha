@@ -14,6 +14,7 @@ public class PlayerCircuit : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     bool canJump = true;
+    bool isGameStarted = false;
 
     public GameObject Panel;
     public TextMeshProUGUI Text;
@@ -22,14 +23,26 @@ public class PlayerCircuit : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-
-        Time.timeScale = 1;
     }
+
+    private void Start()
+    {
+        StartCoroutine(StartDelay());
+    }
+
+    IEnumerator StartDelay()
+    { 
+        yield return new WaitForSeconds(2.0f);
+        isGameStarted = true;
+    }
+
     void Update()
     {
-        MoveAlongPath();
-        HandleJump();
-    }
+        if(isGameStarted)
+        {
+            MoveAlongPath();
+            HandleJump();
+        }    }
 
     void MoveAlongPath()
     {

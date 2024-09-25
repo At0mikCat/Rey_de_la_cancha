@@ -8,6 +8,7 @@ public class Buttons : MonoBehaviour
 
     public GameObject panelPause;
     public GameObject resume;
+    public GameObject panelTutorial;
 
     public void GoToMainMenu()
     {
@@ -46,5 +47,11 @@ public class Buttons : MonoBehaviour
         Time.timeScale = 1;
         panelPause.SetActive(false);
         resume.SetActive(true);
+    }
+
+    public void QuitTutorial()
+    {
+        panelTutorial.SetActive(false);
+        Time.timeScale = 1;
     }
 }

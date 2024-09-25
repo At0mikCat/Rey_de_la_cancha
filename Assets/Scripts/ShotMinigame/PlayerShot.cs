@@ -51,6 +51,7 @@ public class PlayerShot : MonoBehaviour
 
         transform.position = new Vector3(transform.position.x, targetPosition.y, transform.position.z);
     } 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ball"))

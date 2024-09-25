@@ -8,10 +8,7 @@ public class BallsGenerator : MonoBehaviour
     public float laneDistance = 2.0f; 
     public Transform spawnPoint;   
     public float ballSpeed = 5.0f;
-    private void Awake()
-    {
-        Time.timeScale = 1;
-    }
+
     void Start()
     {
         StartCoroutine(SpawnBallRoutine());
@@ -19,6 +16,8 @@ public class BallsGenerator : MonoBehaviour
 
     IEnumerator SpawnBallRoutine()
     {
+        yield return new WaitForSeconds(2.0f);
+
         while (true)
         {
             SpawnBall();
