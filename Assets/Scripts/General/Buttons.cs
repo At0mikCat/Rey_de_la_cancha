@@ -17,7 +17,7 @@ public class Buttons : MonoBehaviour
 
     public void GoToVisualNovel()
     {
-        SceneManager.LoadScene("Visual Novel");
+        SceneManager.LoadScene("1- Inicio Juego");
     }
 
     public void GoToVolleyMinigame()
