@@ -15,12 +15,12 @@ MonoBehaviour:
   speakerName: "Jos\xE9"
   textColor: {r: 1, g: 1, b: 1, a: 0}
   sprites:
-  - {fileID: 642222529, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
-  - {fileID: 16412922, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
-  - {fileID: 914646193, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
   - {fileID: -1072757478, guid: 966a55fbb13ea2542b159dbda7537d11, type: 3}
   - {fileID: -1010743498, guid: 966a55fbb13ea2542b159dbda7537d11, type: 3}
   - {fileID: 1912392059, guid: 966a55fbb13ea2542b159dbda7537d11, type: 3}
+  - {fileID: 642222529, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
+  - {fileID: 16412922, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
+  - {fileID: 914646193, guid: 9b93667f2973f174c997dc3937cf280d, type: 3}
   - {fileID: 1124415998, guid: da67581166e708e419c4103a8eb317c8, type: 3}
   - {fileID: -1947159716, guid: da67581166e708e419c4103a8eb317c8, type: 3}
   - {fileID: -1425928067, guid: da67581166e708e419c4103a8eb317c8, type: 3}

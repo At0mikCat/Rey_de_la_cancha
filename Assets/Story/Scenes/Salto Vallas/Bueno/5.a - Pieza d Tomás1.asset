@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: "Pieza d Tom\xE1s1"
+  m_Name: "5.a - Pieza d Tom\xE1s1"
   m_EditorClassIdentifier: 
   sentences:
   - text: "Al llegar a su casa, Tom\xE1s se acuesta y piensa sobre su d\xEDa."
@@ -19,24 +19,28 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Hoy fue un d\xEDa horrible, primero recuerdo a Jos\xE9 y desp\xFAes el
-      entrenador me reta."
+  - text: "Hoy fue un d\xEDa piola, lo \xFAnico que no me gust\xF3 fue recordar a
+      Jos\xE9. "
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: "Igual no me puedo bajonear, tengo que ponerle ganas nom\xE1s."
-    audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Tras repasar lo que ocurri\xF3 durante el d\xEDa, Tom\xE1s comienza su
       rutina para acostarse."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 6bcdc34978fa19d46a95693fe032bf0e, type: 3}

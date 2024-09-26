@@ -107,7 +107,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Para la otra concentrate m\xE1s en el partido Tom\xE1s, estabas volando
+  - text: "Para la otra conc\xE9ntrate m\xE1s en el partido Tom\xE1s, estabas volando
       bajo."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
@@ -147,7 +147,7 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Si entrenador.
+  - text: "S\xED entrenador."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
     actions:

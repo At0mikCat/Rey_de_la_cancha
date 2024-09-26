@@ -10,14 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
-  m_Name: Valla malo
+  m_Name: 4.b - Valla malo
   m_EditorClassIdentifier: 
   sentences:
   - text: Buen trabajo chicos, ya pueden irse a sus casas y recuerden llevarse sus
       bolsos para que el conserje no se los lleve jajaja.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Tom\xE1s, \xBFpuedes venir un segundo?"
@@ -29,27 +34,62 @@ MonoBehaviour:
   - text: "\xBFQu\xE9 pas\xF3 entrenador?"
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Tu rendimiento hoy fue horrible, espero que te pongas las pilas para la
       pr\xF3xima."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Si entrenador, disculpe.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Desp\xFAes de esto Tom\xE1s recoje su bolso y se va en direcci\xF3n a
       su casa."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 36191fb7ebdadb34a96cefc60c889178, type: 3}
