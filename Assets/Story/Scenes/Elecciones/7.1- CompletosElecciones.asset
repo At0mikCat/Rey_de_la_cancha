@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
-  m_Name: CompletosElecciones
+  m_Name: 7.1- CompletosElecciones
   m_EditorClassIdentifier: 
   labels:
   - text: "Jos\xE9 decide escribirle a Tom\xE1s para coordinar un partido de entrenamiento."
