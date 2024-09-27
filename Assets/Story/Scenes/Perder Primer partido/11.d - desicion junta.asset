@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 11.d - desicion junta
   m_EditorClassIdentifier: 
   labels:
-  - text: "Tom\xE1s decide juntarse Jos\xE9."
+  - text: "Tom\xE1s decide juntarse con Jos\xE9."
     nextScene: {fileID: 11400000, guid: 99ab8de46fcc6cf49b346cac68faea19, type: 2}
   - text: "Tom\xE1s decide no juntarse con Jos\xE9."
     nextScene: {fileID: 11400000, guid: c98d4a4ba378c6e4e801e8106d629641, type: 2}

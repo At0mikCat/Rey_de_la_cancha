@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/13.b cambio de escena remate.unity
     guid: 92db50ce246a5ac4f9bd654d265549e6
   - enabled: 1
-    path: "Assets/Scenes/16.a - Transici\xF3n a minijuego.unity"
+    path: Assets/Scenes/16.a - Transicion a minijuego.unity
     guid: 415ddce61b096984c82bef8865f0ec4a
   - enabled: 0
     path: Assets/Scenes/Juego/CircuitTraining 1.unity

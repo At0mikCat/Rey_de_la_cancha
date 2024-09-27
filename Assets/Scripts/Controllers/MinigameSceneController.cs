@@ -37,7 +37,7 @@ public class MinigameSceneController : MonoBehaviour
 
         if (GameController.currentScene.name == "16.a - Transición a minijuego")
         {
-            SceneManager.LoadScene("16.a - Transición a minijuego");
+            SceneManager.LoadScene("16.a - Transicion a minijuego");
         }
         if (GameController.currentScene.name == "19.a - Transición minijuego partido final")
         {
