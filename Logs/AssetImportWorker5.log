@@ -15,7 +15,7 @@ D:/Documentos/GitHub/Rey_de_la_cancha
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-51345
+49181
 Successfully changed project path to: D:/Documentos/GitHub/Rey_de_la_cancha
 D:/Documentos/GitHub/Rey_de_la_cancha
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Documentos/GitHub/Rey_de_la_cancha
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18356] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 2311204243 [EditorId] 2311204243 [Version] 1048832 [Id] WindowsEditor(7,Sharli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [852] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 633480347 [EditorId] 633480347 [Version] 1048832 [Id] WindowsEditor(7,Sharli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18356] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 2311204243 [EditorId] 2311204243 [Version] 1048832 [Id] WindowsEditor(7,Sharli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [852] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 633480347 [EditorId] 633480347 [Version] 1048832 [Id] WindowsEditor(7,Sharli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 500.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path D:/Aplicaciones/Unity Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/Aplicaciones/Unity Editor/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Aplicaciones/Unity Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Aplicaciones/Unity Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Aplicaciones/Unity Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Aplicaciones/Unity Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.029517 seconds.
-- Loaded All Assemblies, in  1.228 seconds
+Registered in 0.004508 seconds.
+- Loaded All Assemblies, in  0.400 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.410 seconds
-Domain Reload Profiling: 1638ms
-	BeginReloadAssembly (656ms)
+- Finished resetting the current domain, in  0.312 seconds
+Domain Reload Profiling: 712ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (146ms)
-	LoadAllAssembliesAndSetupDomain (361ms)
-		LoadAssemblies (657ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (355ms)
-				TypeCache.ScanAssembly (331ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (145ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (411ms)
+	FinalizeReload (312ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (338ms)
+		SetupLoadedEditorAssemblies (248ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1638ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.587 seconds
-Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.690 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.027 seconds
-Domain Reload Profiling: 3614ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 1470ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (2319ms)
-		LoadAssemblies (2134ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (301ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (206ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
 			ResolveRequiredComponents (15ms)
-	FinalizeReload (1027ms)
+	FinalizeReload (780ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (804ms)
+		SetupLoadedEditorAssemblies (600ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (567ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.43 seconds
-Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5708 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 90 unused Assets / (0.8 MB). Loaded Objects now: 6165.
 Memory consumption went from 209.4 MB to 208.7 MB.
-Total: 6.032200 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.608500 ms MarkObjects: 4.538400 ms  DeleteObjects: 0.421400 ms)
+Total: 5.971800 ms (FindLiveObjects: 0.542000 ms CreateObjectMapping: 0.614200 ms MarkObjects: 4.285400 ms  DeleteObjects: 0.528400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,76 +184,148 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 258264.320628 seconds.
-  path: Assets/Sprites/Background/Cancha normal.png
-  artifactKey: Guid(28c44b0e4431c6b48a113c2c46fc06c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Cancha normal.png using Guid(28c44b0e4431c6b48a113c2c46fc06c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64eb50d9c8554897e0f35b8651d50599') in 0.513838 seconds
+  Time since last request: 14357.788932 seconds.
+  path: Assets/Story/Scenes/Hablarle/9.a Casa José.asset
+  artifactKey: Guid(3d56e757d752cc44da33e95e36ba3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Scenes/Hablarle/9.a Casa José.asset using Guid(3d56e757d752cc44da33e95e36ba3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c3e66f3f2c1b7752cc637dc580299c') in 0.022569 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Background/Cancha recuerdo.png
-  artifactKey: Guid(e517714c4d41aeb46a5d88ac10505411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Cancha recuerdo.png using Guid(e517714c4d41aeb46a5d88ac10505411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd108ae80a9cf26dd185d792a22f5529') in 0.242371 seconds
+  Time since last request: 197.914460 seconds.
+  path: Assets/Story/Speakers/Secundarios/Compañero de equipo 1.asset
+  artifactKey: Guid(38844710a90b7f64dbb1ee3aa17323e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Secundarios/Compañero de equipo 1.asset using Guid(38844710a90b7f64dbb1ee3aa17323e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80316386d2cfa4e7333154469dc02b13') in 0.001826 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Story/Speakers/Secundarios/Compañero de equipo 2.asset
+  artifactKey: Guid(c264535f25775dd4bb4411e8538b8d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Secundarios/Compañero de equipo 2.asset using Guid(c264535f25775dd4bb4411e8538b8d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bac0415dbf78d03dceb668143dac7b') in 0.003051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
+  path: Assets/Story/Speakers/Niño José.asset
+  artifactKey: Guid(4f2ffa1515d898845b46953fff71c79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Niño José.asset using Guid(4f2ffa1515d898845b46953fff71c79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ef72d855f1d53557e37adf7fedc9ae') in 0.003041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Story/Speakers/Secundarios/Entrenador Fernando.asset
+  artifactKey: Guid(7b97611cebaaf6a4faf8a8776699bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Secundarios/Entrenador Fernando.asset using Guid(7b97611cebaaf6a4faf8a8776699bd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31873c334e66d651b252e2b62e9fb9a5') in 0.001613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Story/Speakers/Secundarios/Mamá de José.asset
+  artifactKey: Guid(eba48febdb1e7124b81b0e910dc6e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Secundarios/Mamá de José.asset using Guid(eba48febdb1e7124b81b0e910dc6e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9adc6457666b14e4d0e787fc9431655') in 0.001054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006402 seconds.
+  path: Assets/Story/Speakers/Niño Tomás.asset
+  artifactKey: Guid(607ee6ee26763cc489007190bffe9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Niño Tomás.asset using Guid(607ee6ee26763cc489007190bffe9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19ab0e2ddf07fb035cab555270d60e2') in 0.002712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Story/Speakers/Narrador.asset
+  artifactKey: Guid(68eac522f1e6df64b8e2ebc755e6f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Narrador.asset using Guid(68eac522f1e6df64b8e2ebc755e6f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688532a97402dc342f360e5fadb657fd') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Story/Speakers/Tomás.asset
+  artifactKey: Guid(d40a69069d73bac49b59f4162b5c784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/Tomás.asset using Guid(d40a69069d73bac49b59f4162b5c784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c84773bfc4c4ff7bf3989134f1e4a8') in 0.004073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Story/Speakers/George.asset
+  artifactKey: Guid(eddfe009b49d3484d8dfb5498d6a2f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Story/Speakers/George.asset using Guid(eddfe009b49d3484d8dfb5498d6a2f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9984ee5e62c38642ade809f984e971b') in 0.002789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 48.264667 seconds.
+  path: Assets/Music/ambient3.mp3
+  artifactKey: Guid(cfd9b775032f1b44a8309d0a5239016a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/ambient3.mp3 using Guid(cfd9b775032f1b44a8309d0a5239016a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b071d0cbfd8663714acd21adbf75375d') in 0.758306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 83.700019 seconds.
+  path: Assets/Sprites/Background/Cancha cuica.png
+  artifactKey: Guid(36191fb7ebdadb34a96cefc60c889178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Background/Cancha cuica.png using Guid(36191fb7ebdadb34a96cefc60c889178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a118f21feae3aa6f251867f606bead4') in 0.082424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Principales/José normal.png
+  artifactKey: Guid(966a55fbb13ea2542b159dbda7537d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Principales/José normal.png using Guid(966a55fbb13ea2542b159dbda7537d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a24f1d1226752b3374ebed89f5c6c2') in 0.042499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
   path: Assets/Sprites/Secundarios/Entrenador Ricardo Enojado.png
   artifactKey: Guid(d6e522f0306d8554daa5bea7951b6ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Secundarios/Entrenador Ricardo Enojado.png using Guid(d6e522f0306d8554daa5bea7951b6ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6023c1f2321ea116341d4b6b0dc4478') in 0.214402 seconds
+Start importing Assets/Sprites/Secundarios/Entrenador Ricardo Enojado.png using Guid(d6e522f0306d8554daa5bea7951b6ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6023c1f2321ea116341d4b6b0dc4478') in 0.044162 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Entrenador Fernando.png
-  artifactKey: Guid(82ac8bc777cd50b498fd9bd567bb872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Entrenador Fernando.png using Guid(82ac8bc777cd50b498fd9bd567bb872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0917f40c530476bfcd5d4d9592d77415') in 0.224497 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Background/Completos.png
+  artifactKey: Guid(10fabcad67838fc4483656ea3a8e68d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Background/Completos.png using Guid(10fabcad67838fc4483656ea3a8e68d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8859d11388eb7dac22c0233a5d883714') in 0.041696 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Principales/José normal.png
-  artifactKey: Guid(966a55fbb13ea2542b159dbda7537d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Principales/José normal.png using Guid(966a55fbb13ea2542b159dbda7537d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a24f1d1226752b3374ebed89f5c6c2') in 0.209339 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Secundarios/Entrenador Fernando Enojado.png
+  artifactKey: Guid(8f6f718020475e44d8e1e14e96519c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Secundarios/Entrenador Fernando Enojado.png using Guid(8f6f718020475e44d8e1e14e96519c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71244a2bdbf73d429ba15f87b6bc6d73') in 0.045345 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Entrenador Fernando.png
+  artifactKey: Guid(82ac8bc777cd50b498fd9bd567bb872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Entrenador Fernando.png using Guid(82ac8bc777cd50b498fd9bd567bb872b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0917f40c530476bfcd5d4d9592d77415') in 0.027884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/ShotMinigame/Fondo.png
-  artifactKey: Guid(12947c043b4768d48947a9a469a86841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/ShotMinigame/Fondo.png using Guid(12947c043b4768d48947a9a469a86841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d26c245b1bcc4a404bca481f7046c8') in 0.242355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Principales/José ojos cerrados normal.png
-  artifactKey: Guid(a87c4057f182e5144b517a2403ce9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Principales/José ojos cerrados normal.png using Guid(a87c4057f182e5144b517a2403ce9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4b6547c1ffc92790ece02347c5f4c4') in 0.129831 seconds
+  path: Assets/Sprites/Principales/José ojos cerrados enojado.png
+  artifactKey: Guid(da67581166e708e419c4103a8eb317c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Principales/José ojos cerrados enojado.png using Guid(da67581166e708e419c4103a8eb317c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249c69614a3328ddd9d4e8262e471487') in 0.033310 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 1.340634 seconds.
-  path: Assets/Story/Scenes/Salto Vallas/Bueno/4.a - Valla bueno.asset
-  artifactKey: Guid(d8625ee9024dbc14cbf6691b63a1f1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Story/Scenes/Salto Vallas/Bueno/4.a - Valla bueno.asset using Guid(d8625ee9024dbc14cbf6691b63a1f1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7582afcc8e7201bbc2a760835d4d5ed8') in 0.071416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 104
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Story/Scenes/Salto Vallas/Malo/5.b Casa Tomás.asset
-  artifactKey: Guid(f15a4e3dddc935b4c970645dd73a74f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Story/Scenes/Salto Vallas/Malo/5.b Casa Tomás.asset using Guid(f15a4e3dddc935b4c970645dd73a74f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c6df8a6c02d57fdda4a19cb60f432c') in 0.012859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operaci�n de E/S se anul� por una salida de subproceso o por una solicitud de aplicaci�n.
 AssetImportWorker is now disconnected from the server

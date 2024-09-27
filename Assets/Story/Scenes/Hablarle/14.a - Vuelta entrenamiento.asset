@@ -95,8 +95,8 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Ellos... Siguen pensando as\xED... Ser\xE1 mejor que ignore eso para no
-      calentarme la cabeza."
+  - text: "(Ellos... Siguen pensando as\xED... Ser\xE1 mejor que ignore eso para
+      no calentarme la cabeza.)"
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
     actions: []

@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 12.d - No junta
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Tom\xE1s decide no ir con Jos\xE9."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Oye, \xBFAcaso no vas a venir?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xBFEstas ah\xED?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s solo lo dej\xF3 en visto y no respondi\xF3 ninguno de sus mensajes."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Al pasar los d\xEDas, Tom\xE1s comienza a sentir la culpa de no haberse
+      puesto en contacto con el."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Los malos tratos por parte de sus compa\xF1eros de equipo hacen que la
+      desmotivaci\xF3n de Tom\xE1s aumente."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "(Esto ya no puede seguir as\xED...)"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Mi estado de animo empeora y no puedo concentrarme.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Por m\xE1s que lo intento, no puedo mejorar."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "No creo que pueda continuar as\xED..."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s al verse superado por los malos tratos y el estr\xE9s que le
+      gener\xF3 el estar en ese equipo, decide abandonar el club."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "As\xED esta mucho mejor... tom\xE9 una buena decisi\xF3n..."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s no paraba de enga\xF1arse a si mismo diciendo que la decisi\xF3n
+      que tomo era la mejor posible."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: En realidad no lo era...
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Al pasar el tiempo, el torneo de verano dio a lugar.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "El equipo en el que jug\xF3 Jos\xE9 se llevo la victoria en el torneo."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Jos\xE9 al entrenar arduamente logr\xF3 entrar a la selecci\xF3n nacional
+      de Voleibol."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Mientras que Tom\xE1s decidi\xF3 continuar con sus estudios en la universidad."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6bcdc34978fa19d46a95693fe032bf0e, type: 3}
+  nextScene: {fileID: 11400000, guid: 6f48821a88bfaf74fbbba3486fe860c4, type: 2}

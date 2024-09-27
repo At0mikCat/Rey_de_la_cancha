@@ -62,16 +62,5 @@ MonoBehaviour:
       moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Tom\xE1s decide ir junto a Jos\xE9 para hablar."
-    audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    music: {fileID: 0}
-    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 36191fb7ebdadb34a96cefc60c889178, type: 3}
   nextScene: {fileID: 11400000, guid: c574cf897a1eb1f439d505eba1004180, type: 2}

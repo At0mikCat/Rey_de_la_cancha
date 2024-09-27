@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: "12.d - Junta Jos\xE9"
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hola, al fin llegas.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hola Jos\xE9... "
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Habiendo una tensi\xF3n bastante evidente en el ambiente, deciden hablar
+      sobre lo que sucedi\xF3 entre ellos."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s, te ped\xED que nos junt\xE1ramos para disculparme sobre lo que
+      pas\xF3."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Jos\xE9..."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Ese d\xEDa me deje llevar por la situaci\xF3n y termin\xE9 diciendo algo
+      que no deber\xEDa."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Est\xE1 bien, no pasa nada."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Realmente quer\xEDa disculparme contigo, eres mi amigo de la infancia
+      y no quer\xEDa que nuestra amistad acabar\xE1 por algo as\xED."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: " Esta bien Jos\xE9, de verdad entiendo que es algo que dijiste por el
+      calor del momento, te perdono."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xA1Gracias!, mantenia la esperanza de que nuestra amistad duradera seria
+      mas fuerte que esto."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Jajaja yo tambien estaba un poco inquieto con todo esto.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Jos\xE9 y Tom\xE1s se dan un apreton de manos en se\xF1al de reconciliaci\xF3n
+      y luego de esto Tom\xE1s le comenta la situaci\xF3n sobre su equipo."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: La verdad, con mi equipo he tenido varios problemas.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xBFDe verdad?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "S\xED, mi entrenador me echa la culpa de que el equipo pierda los partidos."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Que mal, se nota que la estas pasando mal ah\xED."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Demasiado, hay demasiada toxicidad en ese equipo.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "En ese caso podr\xEDas unirte a mi club, a\xFAn tenemos cupos disponibles."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xBFDe verdad puedo unirme?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Claro, va a ser bac\xE1n tenerte en el equipo."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s decide unirse al equipo de Jos\xE9, en el cual practican arduamente
+      hasta llegar al torneo de verano."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Finalmente el torneo de verano ha llegado y el equipo en el que est\xE1n
+      Jos\xE9 y Tom\xE1s logra llegar hasta la final. "
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Final en la cual deber\xE1n enfrentarse al equipo \"Nido de c\xF3ndor\"."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 39873a548ff002143ba5ad99b38f278b, type: 3}
+  nextScene: {fileID: 11400000, guid: 196ee0b45a3ad6940a20cfe01e754640, type: 2}

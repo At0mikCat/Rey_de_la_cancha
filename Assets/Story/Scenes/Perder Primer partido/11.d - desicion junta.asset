@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: 11.d - desicion junta
+  m_EditorClassIdentifier: 
+  labels:
+  - text: "Tom\xE1s decide juntarse Jos\xE9."
+    nextScene: {fileID: 11400000, guid: 99ab8de46fcc6cf49b346cac68faea19, type: 2}
+  - text: "Tom\xE1s decide no juntarse con Jos\xE9."
+    nextScene: {fileID: 11400000, guid: c98d4a4ba378c6e4e801e8106d629641, type: 2}
