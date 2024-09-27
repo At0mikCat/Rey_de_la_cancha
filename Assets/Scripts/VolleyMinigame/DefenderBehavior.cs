@@ -6,6 +6,8 @@ public class DefenderBehavior : PlayerBase
 {
     public GameObject setter;
 
+    public Animator animator;
+
     private void Update()
     {
         if(HasDetectedBall())
@@ -17,6 +19,7 @@ public class DefenderBehavior : PlayerBase
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+            animator.SetTrigger("pass");
             PassToSetter();
         }
     }

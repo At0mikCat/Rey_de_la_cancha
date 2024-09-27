@@ -22,22 +22,26 @@ public class MinigameSceneController : MonoBehaviour
 
         if (GameController.currentScene.name == "11.b cambio de escena")
         {
-            // MINIJUEGO DE PARTIDO
+            SceneManager.LoadScene("11.b cambio de escena");
         }
 
         if (GameController.currentScene.name == "13.b cambio de escena remate")
         {
-            // MINIJUEGO DE REMATE
+            SceneManager.LoadScene("13.b cambio de escena remate");
+        }
+
+        if (GameController.currentScene.name == "13.d - transicion minijuego")
+        {
+            SceneManager.LoadScene("13.d - transicion minijuego");
         }
 
         if (GameController.currentScene.name == "16.a - Transición a minijuego")
         {
-            //MINIJUEGO DE PARTIDO
+            SceneManager.LoadScene("16.a - Transición a minijuego");
         }
         if (GameController.currentScene.name == "19.a - Transición minijuego partido final")
         {
-            
-            //MINIJUEGO DE PARTIDO
+            SceneManager.LoadScene("19.a - Transición minijuego partido final");
         }
     }
 }

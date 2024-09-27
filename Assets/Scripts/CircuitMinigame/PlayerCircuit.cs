@@ -5,44 +5,36 @@ using TMPro;
 
 public class PlayerCircuit : MonoBehaviour
 {
-    public Transform[] waypoints;   
-    public float moveSpeed = 2f;    
+    public Transform[] waypoints;
+    public float moveSpeed = 2f;
     private int currentWaypointIndex = 0;
 
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
     private SpriteRenderer spriteRenderer;
+    private Animator animator;  
 
     bool canJump = true;
-    bool isGameStarted = false;
+
+    public GameObject buttonWin;
+    public GameObject buttonLose;
 
     public GameObject Panel;
     public TextMeshProUGUI Text;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    private void Start()
-    {
-        StartCoroutine(StartDelay());
-    }
-
-    IEnumerator StartDelay()
-    { 
-        yield return new WaitForSeconds(2.0f);
-        isGameStarted = true;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        if(isGameStarted)
-        {
             MoveAlongPath();
             HandleJump();
-        }    }
+    }
 
     void MoveAlongPath()
     {
@@ -54,8 +46,9 @@ public class PlayerCircuit : MonoBehaviour
             if (Vector2.Distance(transform.position, targetWaypoint.position) < 0.1f)
             {
                 currentWaypointIndex++;
+
+                transform.Rotate(0f, 0f, -90f);
             }
-            
         }
     }
 
@@ -65,7 +58,7 @@ public class PlayerCircuit : MonoBehaviour
         {
             boxCollider.enabled = false;
             canJump = false;
-            spriteRenderer.color = Color.blue;
+            animator.SetTrigger("Jump");
             StartCoroutine(Jump());
         }
     }
@@ -75,7 +68,6 @@ public class PlayerCircuit : MonoBehaviour
         yield return new WaitForSeconds(0.65f);
         boxCollider.enabled = true;
         canJump = true;
-        spriteRenderer.color = Color.red;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -84,9 +76,9 @@ public class PlayerCircuit : MonoBehaviour
         {
             Time.timeScale = 0;
             Panel.SetActive(true);
-            Text.text = "¡Perdiste!";
+            Text.text = "¡Fallaste, el entrenador te va a regañar!";
+            buttonLose.SetActive(true);
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -95,6 +87,8 @@ public class PlayerCircuit : MonoBehaviour
         {
             Panel.SetActive(true);
             Time.timeScale = 0;
+            Text.text = "¡Muy bien, lo lograse!";
+            buttonWin.SetActive(true);
         }
     }
 }

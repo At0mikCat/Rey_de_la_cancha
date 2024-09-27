@@ -123,7 +123,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Tu mam\xE1 ya le pregunt\xF3 a la m\xEDa, no puedo."
+  - text: "Tu mam\xE1 ya  le pregunt\xF3 a la m\xEDa, no puedo."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 4f2ffa1515d898845b46953fff71c79b, type: 2}
     actions:

@@ -9,6 +9,7 @@ public class FailCounter : MonoBehaviour
 
     public GameObject panel;
     public TextMeshProUGUI failText;
+    public GameObject buttonFail;
 
     private void Update()
     {
@@ -17,6 +18,7 @@ public class FailCounter : MonoBehaviour
             Time.timeScale = 0;
             panel.SetActive(true);
             failText.text = "¡Perdiste!";
+            buttonFail.SetActive(true);
         }
     }
 

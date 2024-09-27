@@ -7,10 +7,13 @@ public class SetterBehavior : PlayerBase
     public GameObject spiker1;
     public GameObject spiker2;
 
+    public Animator animator;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+            animator.SetTrigger("pass");
             PassToSpiker();
         }
     }

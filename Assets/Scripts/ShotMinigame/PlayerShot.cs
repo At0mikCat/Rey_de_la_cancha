@@ -4,23 +4,47 @@ using UnityEngine;
 
 public class PlayerShot : MonoBehaviour
 {
-    public float laneDistance = 2.0f;  
-    public float forwardSpeed = 5f;   
-    private int currentLane = 1;        
+    public float laneDistance = 2.0f;
+    public float forwardSpeed = 5f;
+    private int currentLane = 1;
     private int numberOfLanes = 3;
     public float forceBall = 5;
-
     [SerializeField] int score = 0;
-
     public GameObject panel;
+
+    public float laneChangeSpeed = 5f;
+    private Vector3 targetPosition;
+
+    private Animator animator;
+    public GameObject buttonWin;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    void Start()
+    {
+        targetPosition = transform.position;
+    }
+
     void Update()
     {
         HandleLaneChange();
-        if(score == 10)
+        transform.position = Vector3.Lerp(transform.position, targetPosition, laneChangeSpeed * Time.deltaTime);
+
+        if (score == 10)
         {
-            Time.timeScale = 0;
-            panel.SetActive(true);
+            StartCoroutine(wait());
         }
+    }
+
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(1f);
+        Time.timeScale = 0;
+        panel.SetActive(true);
+        buttonWin.SetActive(true);
     }
 
     void HandleLaneChange()
@@ -30,7 +54,7 @@ public class PlayerShot : MonoBehaviour
             if (currentLane < numberOfLanes - 1)
             {
                 currentLane++;
-                MoveToLane();
+                SetTargetLanePosition();
             }
         }
 
@@ -39,18 +63,15 @@ public class PlayerShot : MonoBehaviour
             if (currentLane > 0)
             {
                 currentLane--;
-                MoveToLane();
+                SetTargetLanePosition();
             }
         }
     }
 
-    void MoveToLane()
+    void SetTargetLanePosition()
     {
-        Vector3 targetPosition = transform.position;
-        targetPosition.y = (currentLane - 1) * laneDistance; 
-
-        transform.position = new Vector3(transform.position.x, targetPosition.y, transform.position.z);
-    } 
+        targetPosition = new Vector3(transform.position.x, (currentLane - 1) * laneDistance, transform.position.z);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -62,6 +83,7 @@ public class PlayerShot : MonoBehaviour
             {
                 ballRb.velocity = Vector2.right * forceBall;
                 score++;
+                animator.SetTrigger("Shot");
             }
         }
     }

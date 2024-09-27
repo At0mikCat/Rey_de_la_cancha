@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using static UnityEngine.Rendering.DebugUI;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,9 +14,23 @@ public class GameManager : MonoBehaviour
 
     public GameObject panelWINORLOSE;
     public TextMeshProUGUI winOrLoseText;
-    private void Awake()
+
+    public GameObject ball;
+    public Transform redServePosition;
+    public Transform blueServePosition;
+
+    public float freezeDuration = 1f;
+    public float serveForce = 15f;
+    public string serveLayer = "ServeLayer";   
+    private string defaultLayer = "Default";
+
+    public GameObject buttonWin;
+    public GameObject buttonLose;
+
+    private void Start()
     {
-        Time.timeScale = 1;
+        Time.timeScale = 0;
+        StartCoroutine(ResetBall(redServePosition, new Vector2(1, 0)));
     }
 
     private void Update()
@@ -22,35 +38,55 @@ public class GameManager : MonoBehaviour
         RedScoreText.text = RedScore.ToString();
         BlueScoreText.text = BlueScore.ToString();
 
-        if (RedScore >= 10)
+        if (RedScore >= 7)
         {
             Time.timeScale = 0;
             panelWINORLOSE.SetActive(true);
-            winOrLoseText.text = "¡Rojo gana!";
+            winOrLoseText.text = "¡Ganaste, lo lograste!";
+            buttonWin.SetActive(true);
         }
 
-        if(BlueScore >= 10)
+        if (BlueScore >= 7)
         {
             Time.timeScale = 0;
             panelWINORLOSE.SetActive(true);
-            winOrLoseText.text = "¡Azul gana!";
+            winOrLoseText.text = "¡Una lástima!";
+            buttonLose.SetActive(true);
         }
     }
 
     public void RedScored()
     {
         RedScore++;
-        ReloadScene();
+        StartCoroutine(ResetBall(blueServePosition, new Vector2(-1, 0)));  
     }
 
     public void BlueScored()
     {
         BlueScore++;
-        ReloadScene();
+        StartCoroutine(ResetBall(redServePosition, new Vector2(1, 0)));  
     }
 
-    private void ReloadScene()
+    private IEnumerator ResetBall(Transform servePosition, Vector2 serveDirection)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
+        ball.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        ball.transform.position = servePosition.position;
+
+        ball.layer = LayerMask.NameToLayer(serveLayer);
+
+        Time.timeScale = 0f;
+        float pauseEndTime = Time.realtimeSinceStartup + freezeDuration;
+        while (Time.realtimeSinceStartup < pauseEndTime)
+        {
+            yield return null;
+        }
+
+        Time.timeScale = 1f;
+
+        ball.GetComponent<Rigidbody2D>().AddForce(serveDirection * serveForce, ForceMode2D.Impulse);
+
+        yield return new WaitForSeconds(0.5f);
+
+        ball.layer = LayerMask.NameToLayer(defaultLayer);
     }
 }

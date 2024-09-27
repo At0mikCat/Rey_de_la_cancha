@@ -1265,7 +1265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a431f3b83ce874d9c5174365f51876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 811e783cb5d3d5e489e9789299b414d8, type: 2}
+  currentScene: {fileID: 11400000, guid: 6e0dd3b3bf94ba841b2ac4cec6f906bd, type: 2}
   bottomBar: {fileID: 455100601}
   backgroundController: {fileID: 48699395}
   chooseController: {fileID: 1548364065}

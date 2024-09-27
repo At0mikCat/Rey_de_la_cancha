@@ -16,4 +16,4 @@ MonoBehaviour:
   - text: "Tom\xE1s decide defender a Jos\xE9 y juntarse con \xE9l."
     nextScene: {fileID: 11400000, guid: fa7f3503ee05eb44293b412d430a95af, type: 2}
   - text: "Tom\xE1s decide no defender a Jos\xE9 y dejarlo plantado."
-    nextScene: {fileID: 11400000, guid: fa7f3503ee05eb44293b412d430a95af, type: 2}
+    nextScene: {fileID: 11400000, guid: 59daea4fadf18fa40bdd2d1f48868669, type: 2}

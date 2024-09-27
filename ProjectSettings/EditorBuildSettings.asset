@@ -23,4 +23,52 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShotTrainingMinigameTEST.unity
     guid: f8f4c83c0af653a418cd2401d2b12bfd
+  - enabled: 1
+    path: "Assets/Scenes/19.a - Transici\xF3n minijuego partido final.unity"
+    guid: 9b1a1095166eac94197fa885123e35f2
+  - enabled: 1
+    path: Assets/Scenes/13.d - transicion minijuego.unity
+    guid: 90ba9e52dc020b2408a3c45830e0030b
+  - enabled: 1
+    path: Assets/Scenes/11.b cambio de escena.unity
+    guid: 0036259a0ebc63349977ec351e2f0996
+  - enabled: 1
+    path: Assets/Scenes/13.b cambio de escena remate.unity
+    guid: 92db50ce246a5ac4f9bd654d265549e6
+  - enabled: 1
+    path: "Assets/Scenes/16.a - Transici\xF3n a minijuego.unity"
+    guid: 415ddce61b096984c82bef8865f0ec4a
+  - enabled: 0
+    path: Assets/Scenes/Juego/CircuitTraining 1.unity
+    guid: 3795241f994bfe448b25c8571c3018a5
+  - enabled: 1
+    path: Assets/Scenes/Juego/No Hablar/11.b - continuacion.unity
+    guid: 8a1ebffded4554d4ca8b010644ed1686
+  - enabled: 1
+    path: Assets/Scenes/Juego/No Hablar/13.b - continuacion.unity
+    guid: b78c8c7ea65761f41bd17032a1e0d780
+  - enabled: 1
+    path: Assets/Scenes/Juego/Salto/2.a Ganas Salto.unity
+    guid: 9bbe8d6b01d83b34f98403031069329b
+  - enabled: 1
+    path: Assets/Scenes/Juego/Salto/2.b Pierdes Salto.unity
+    guid: 65fff5672025200488ea69ac0818b7c4
+  - enabled: 1
+    path: "Assets/Scenes/Juego/Hablar/16.a continuaci\xF3n.unity"
+    guid: 07b50c74a76aec54584762328ce4e78c
+  - enabled: 1
+    path: Assets/Scenes/Juego/13.d finales/13.d - Ganar.unity
+    guid: 034fc0de531166e48a8f617b927c1041
+  - enabled: 1
+    path: Assets/Scenes/Juego/13.d finales/13.d - Perder.unity
+    guid: d3fdfb677c556b54485ee1f441ed19c6
+  - enabled: 1
+    path: "Assets/Scenes/Juego/Hablar/19.a - continuaci\xF3n.unity"
+    guid: c14b5fdd2568f5740bdeb0e6bbd9cfff
+  - enabled: 1
+    path: Assets/Scenes/Juego/Primer partido/9.5.a - Continuacion Ganar.unity
+    guid: 3637244fc28cdde4c8e2fa377f490887
+  - enabled: 1
+    path: Assets/Scenes/Juego/Primer partido/9.5.a - Continuacion perder.unity
+    guid: f9d9c7d6f9c873a4ea1eb24826754cf0
   m_configObjects: {}

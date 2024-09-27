@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpikerBehavior : PlayerBase
 {
     public Transform opponentField;
+    public Animator animator;
 
     private void Update()
     {
@@ -17,6 +18,7 @@ public class SpikerBehavior : PlayerBase
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+            animator.SetTrigger("attack");
             Attack();
         }
     }

@@ -9,6 +9,7 @@ public class Buttons : MonoBehaviour
     public GameObject panelPause;
     public GameObject resume;
     public GameObject panelTutorial;
+    public GameObject gameManager;
 
     public void GoToMainMenu()
     {
@@ -35,6 +36,78 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("CircuitTraining");
     }
 
+    public void ganarsalto()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("2.a Ganas Salto");
+    }
+
+    public void pierdesalto()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("2.b Pierdes Salto");
+    }
+
+    public void ganasvolleyprimerpartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("9.5.a - Continuacion Ganar");
+    }
+
+    public void pierdesvolleyprimerpartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("9.5.a - Continuacion perder");
+    }
+
+    public void ganasvolleysegundopartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("13.d - Ganar");
+    }
+
+    public void pierdesvolleysegundopartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("13.d - Perder");
+    }
+
+    public void ganasvolleytercerpartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("16.a continuación");
+    }
+
+    public void pierdesvolleytercerpartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("16.a continuación");
+    }
+
+    public void ganasvolleycuartopartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("19.a - continuación");
+    }
+
+    public void pierdesvolleycuartopartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("19.a - continuación");
+    }
+
+    public void remate1ganar()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("19.a - continuación");
+    }
+
+    public void remate1perder()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("19.a - continuación");
+    }
+
     public void PauseNow()
     {
         Time.timeScale = 0;
@@ -53,5 +126,12 @@ public class Buttons : MonoBehaviour
     {
         panelTutorial.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void activateGameManager()
+    {
+        panelTutorial.SetActive(false);
+        Time.timeScale = 1;
+        gameManager.SetActive(true);
     }
 }

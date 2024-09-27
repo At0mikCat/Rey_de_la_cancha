@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class BallsGenerator : MonoBehaviour
 {
-    public GameObject[] ballPrefabs;   
-    public float laneDistance = 2.0f; 
-    public Transform spawnPoint;   
+    public GameObject[] ballPrefabs;
+    public float laneDistance = 2.0f;
+    public Transform spawnPoint;
     public float ballSpeed = 5.0f;
+
+    private int lastLane = -1; 
 
     void Start()
     {
@@ -27,7 +29,15 @@ public class BallsGenerator : MonoBehaviour
 
     void SpawnBall()
     {
-        int randomLane = Random.Range(0, 3);
+        int randomLane;
+
+        do
+        {
+            randomLane = Random.Range(0, 3);
+        }
+        while (randomLane == lastLane); 
+
+        lastLane = randomLane;
 
         GameObject selectedBallPrefab = ballPrefabs[randomLane];
 
@@ -35,8 +45,8 @@ public class BallsGenerator : MonoBehaviour
 
         GameObject ball = Instantiate(selectedBallPrefab, spawnPoint.position, Quaternion.identity);
 
-        Vector2 targetPosition = new Vector2(spawnPoint.position.x - 10f, targetYPosition); 
-        Vector2 direction = (targetPosition - (Vector2)spawnPoint.position).normalized;  
+        Vector2 targetPosition = new Vector2(spawnPoint.position.x - 10f, targetYPosition);
+        Vector2 direction = (targetPosition - (Vector2)spawnPoint.position).normalized;
 
         Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
         rb.velocity = direction * ballSpeed;

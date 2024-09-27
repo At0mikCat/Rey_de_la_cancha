@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Entrenador Ricardo
   textColor: {r: 1, g: 1, b: 1, a: 0}
-  sprites: []
+  sprites:
+  - {fileID: 1209965405, guid: ca9d7906687accb4688d94d2328a352d, type: 3}
   prefab: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: End
   m_EditorClassIdentifier: 
   sentences:
-  - text: Fin de la beta test
+  - text: Fin del juego
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
     actions: []
