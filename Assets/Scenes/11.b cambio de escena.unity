@@ -7214,8 +7214,8 @@ MonoBehaviour:
   freezeDuration: 1
   serveForce: 15
   serveLayer: ServeLayer
-  buttonWin: {fileID: 0}
-  buttonLose: {fileID: 0}
+  buttonWin: {fileID: 18621924}
+  buttonLose: {fileID: 793268861}
 --- !u!114 &1914189765
 MonoBehaviour:
   m_ObjectHideFlags: 0
