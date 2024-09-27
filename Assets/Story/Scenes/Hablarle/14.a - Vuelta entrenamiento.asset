@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 14.a - Vuelta entrenamiento
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Al d\xEDa siguiente, Tom\xE1s decidi\xF3 volver a hablar con sus compa\xF1eros
+      del club."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Hola chicos.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hola Tom\xE1s, \xBFC\xF3mo te fue con tu amigo el pulgoso?"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Me fue muy bien, gracias por preguntar.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: No te nos acerques mucho, si no se nos pegaran las pulgas.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Si est\xE1 bien, dejemos ese tema."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Ellos... Siguen pensando as\xED... Ser\xE1 mejor que ignore eso para no
+      calentarme la cabeza."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Despu\xE9s de hablar con sus compa\xF1eros de equipo, Tom\xE1s se dirigi\xF3
+      a hablar con su entrenador."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hola entrenador, quer\xEDa proponerle un partido con un equipo."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Tom\xE1s le propone enfrentarse al equipo en el que se encuentra Jos\xE9."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Si... creo que podr\xEDamos enfrentarnos a ellos..."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "El entrenador acepta enfrentarse al equipo donde juega Jos\xE9 muy a rega\xF1adientes."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "El entrenador acepta enfrentarse al equipo donde juega Jos\xE9 muy a rega\xF1adientes."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7b97611cebaaf6a4faf8a8776699bd52, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 36191fb7ebdadb34a96cefc60c889178, type: 3}
+  nextScene: {fileID: 11400000, guid: c9862a5d162317f4586a41afba484ca2, type: 2}

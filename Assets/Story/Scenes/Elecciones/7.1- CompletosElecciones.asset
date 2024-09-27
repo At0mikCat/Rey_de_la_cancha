@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labels:
   - text: "Jos\xE9 decide escribirle a Tom\xE1s para coordinar un partido de entrenamiento."
-    nextScene: {fileID: 11400000, guid: 6f48821a88bfaf74fbbba3486fe860c4, type: 2}
+    nextScene: {fileID: 11400000, guid: e2451f111643ba64c988d4bf48d3cb37, type: 2}
   - text: "Al recordar como trat\xF3 a Tom\xE1s cuando eran ni\xF1os, decide no contactarlo
       para no provocar discusiones. "
     nextScene: {fileID: 11400000, guid: 051ebacd87ef16e4f8159098977a0666, type: 2}

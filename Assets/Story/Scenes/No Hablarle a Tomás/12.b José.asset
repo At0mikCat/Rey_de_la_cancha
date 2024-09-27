@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: "12.b Jos\xE9"
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Tras ese arduo entrenamiento el equipo Nido de C\xF3ndor decide descansar."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Por otro lado el equipo de Jos\xE9 no logr\xF3 conseguir partidos amistosos
+      y solo entrenan."
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Cabros toca entrenamiento de remate, pongan todo su esfuerzo que en una
+      semana tenemos el torneo.
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\xA1S\xED entrenador!"
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 28c44b0e4431c6b48a113c2c46fc06c3, type: 3}
+  nextScene: {fileID: 11400000, guid: 34b04a249b142ff408cc80aa48e7f645, type: 2}

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: "Compa\xF1ero de equipo 1"
   textColor: {r: 1, g: 1, b: 1, a: 0}
-  sprites: []
+  sprites:
+  - {fileID: 21300000, guid: 82ac8bc777cd50b498fd9bd567bb872b, type: 3}
   prefab: {fileID: 0}
