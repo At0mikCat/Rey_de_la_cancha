@@ -53,6 +53,16 @@ public class Buttons : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("9.5.a - Continuacion Ganar");
     }
+    public void OnceBGanaspartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("11.b - continuacion");
+    }
+    public void OnceBPierdespartido()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("11.b - continuacion");
+    }
 
     public void pierdesvolleyprimerpartido()
     {
@@ -75,37 +85,37 @@ public class Buttons : MonoBehaviour
     public void ganasvolleytercerpartido()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("16.a continuación");
+        SceneManager.LoadScene("16.a continuaciï¿½n");
     }
 
     public void pierdesvolleytercerpartido()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("16.a continuación");
+        SceneManager.LoadScene("16.a continuaciï¿½n");
     }
 
     public void ganasvolleycuartopartido()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("19.a - continuación");
+        SceneManager.LoadScene("19.a - continuacion");
     }
 
     public void pierdesvolleycuartopartido()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("19.a - continuación");
+        SceneManager.LoadScene("19.a - continuacion");
     }
 
-    public void remate1ganar()
+    public void remate13Bganar()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("19.a - continuación");
+        SceneManager.LoadScene("13.b - continuacion");
     }
 
-    public void remate1perder()
+    public void remate13Bperder()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("19.a - continuación");
+        SceneManager.LoadScene("13.b - continuacion");
     }
 
     public void PauseNow()

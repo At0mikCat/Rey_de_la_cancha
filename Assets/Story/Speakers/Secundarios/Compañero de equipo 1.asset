@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "Compa\xF1ero de equipo 1"
   m_EditorClassIdentifier: 
   speakerName: "Compa\xF1ero de equipo 1"
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0, g: 0, b: 0, a: 0}
   sprites: []
-  prefab: {fileID: 0}
+  prefab: {fileID: 2107189958493494109, guid: 3be548813bba8894c9064fe874abffeb, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Mam\xE1 de Jos\xE9"
   m_EditorClassIdentifier: 
   speakerName: "Mam\xE1 de Jos\xE9"
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0, g: 0, b: 0, a: 0}
   sprites:
   - {fileID: 1599283701, guid: 14c936a51da4ff54a9c20f4967e36366, type: 3}
-  prefab: {fileID: 0}
+  prefab: {fileID: 2107189958493494109, guid: e078be81a9fe2e144ae1a9a114b891c1, type: 3}

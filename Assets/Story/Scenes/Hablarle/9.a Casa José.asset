@@ -91,7 +91,7 @@ MonoBehaviour:
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: eba48febdb1e7124b81b0e910dc6e3fa, type: 2}
       spriteIndex: 0
-      actionType: 3
+      actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -149,7 +149,7 @@ MonoBehaviour:
   - text: "Entonces anda a prepararte para dormir que te toca pesadito el d\xEDa
       ma\xF1ana."
     audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    speaker: {fileID: 11400000, guid: eba48febdb1e7124b81b0e910dc6e3fa, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
       spriteIndex: 0
@@ -168,7 +168,7 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
+    - speaker: {fileID: 11400000, guid: eba48febdb1e7124b81b0e910dc6e3fa, type: 2}
       spriteIndex: 0
       actionType: 3
       coords: {x: 0, y: 0}

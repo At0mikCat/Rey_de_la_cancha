@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Entrenador Fernando
   m_EditorClassIdentifier: 
   speakerName: Entrenador Fernando
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0, g: 0, b: 0, a: 0}
   sprites:
   - {fileID: -1874680964, guid: b517f226ba5e079438785951e6249b38, type: 3}
   prefab: {fileID: 2107189958493494109, guid: 647cbceb54c0b53418d245bb48cc63d4, type: 3}

@@ -50,6 +50,11 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
     actions:
+    - speaker: {fileID: 11400000, guid: da67370a68ec79b4b86f21ee9ec5e693, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     - speaker: {fileID: 11400000, guid: 9d36779d286e1fc429050adbf0a956af, type: 2}
       spriteIndex: 0
       actionType: 1

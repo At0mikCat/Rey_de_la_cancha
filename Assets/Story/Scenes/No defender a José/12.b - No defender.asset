@@ -34,11 +34,6 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Jajaja, supongo que tienen raz\xF3n."
@@ -48,11 +43,6 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
       spriteIndex: 0
       actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}

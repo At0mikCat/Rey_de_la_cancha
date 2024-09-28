@@ -24,28 +24,13 @@ MonoBehaviour:
   - text: Era obvio que les ibamos a ganar a estos huasos, ni para calentar sirven.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Toda la raz\xF3n perro, ni sud\xE9 weon."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "\xBFQu\xE9 opinas de esto Tom\xE1s? Ellos realmente cre\xEDan que pod\xEDan
@@ -59,11 +44,6 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
       spriteIndex: 0
       actionType: 1
@@ -73,16 +53,11 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: "\xA1TENER DINERO NO LOS HACE MEJORES PERSONAS, AWEONAOS!"
     audio: {fileID: 0}
-    speaker: {fileID: 0}
+    speaker: {fileID: 11400000, guid: a06964b9a3174fc45bf335c81d26f9b5, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
       spriteIndex: 0
       actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: a06964b9a3174fc45bf335c81d26f9b5, type: 2}
-      spriteIndex: 0
-      actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -91,28 +66,13 @@ MonoBehaviour:
       CALLENSE UN RATO!"
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: a06964b9a3174fc45bf335c81d26f9b5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Vamonos cabros, estamos metiendo mucha bulla.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
       spriteIndex: 0
       actionType: 1
@@ -129,28 +89,13 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Al terminar la discusi\xF3n, cada miembro del equipo se fue a su casa
       mientras se preparaban mentalmente para las intensas pr\xE1cticas que se aproximaban."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 36191fb7ebdadb34a96cefc60c889178, type: 3}

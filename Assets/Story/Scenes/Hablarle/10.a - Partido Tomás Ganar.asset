@@ -30,55 +30,25 @@ MonoBehaviour:
   - text: Malos culiaos.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Dediquense a otra cosa mejor.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Para la proxima traigan a los que jueguen bien.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Tom\xE1s dudoso, no comenta nada y prefiere quedarse al margen de esto."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Chicos, debo \xEDrme."
@@ -101,22 +71,12 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "S\xED, es que ir\xE9 a juntarme con mi amigo de la infancia."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
       spriteIndex: 0
       actionType: 1
@@ -133,22 +93,12 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: El es de La granja.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
       spriteIndex: 0
       actionType: 1
@@ -165,59 +115,24 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Ten cuidado que se te podrian pegar las pulgas.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: De seguro ellos no conocen lo que es una ducha, ten cuidado.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: ' Mejor quedate con nosotros, de seguro te asalta apenas llegues.'
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: c264535f25775dd4bb4411e8538b8d6f, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: "Todas las cosas que dicen sus compa\xF1eros de equipo, resuenan en la
@@ -225,12 +140,7 @@ MonoBehaviour:
       o deber\xEDa quedarse con sus compa\xF1eros de equipo."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 36191fb7ebdadb34a96cefc60c889178, type: 3}

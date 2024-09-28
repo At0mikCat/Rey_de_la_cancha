@@ -20,7 +20,6 @@ public class MenuController : MonoBehaviour
     public void Start()
     {
         animator = GetComponent<Animator>();
-        loadButton.interactable = SaveManager.IsGameSaved();
     }
 
     public void Update()

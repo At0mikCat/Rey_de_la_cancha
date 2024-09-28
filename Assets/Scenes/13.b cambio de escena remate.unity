@@ -778,7 +778,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 877490156}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: remate1ganar
+        m_MethodName: remate13Bganar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2127,7 +2127,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 877490156}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: remate1perder
+        m_MethodName: remate13Bperder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

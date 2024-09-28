@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Entrenador Ricardo
   m_EditorClassIdentifier: 
   speakerName: Entrenador Ricardo
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0, g: 0, b: 0, a: 0}
   sprites:
   - {fileID: 1209965405, guid: ca9d7906687accb4688d94d2328a352d, type: 3}
-  prefab: {fileID: 0}
+  prefab: {fileID: 2107189958493494109, guid: bc884520c74ba744980b3cbc8380e028, type: 3}

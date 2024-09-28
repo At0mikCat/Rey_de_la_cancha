@@ -20,13 +20,6 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: "Con el pasar de los d\xEDas Jos\xE9 tuvo que cuidar a su hermana de forma
-      m\xE1s constante, por lo que empez\xF3 a faltar al entrenamiento."
-    audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: "Llegado el d\xEDa del torneo, el equipo de Jos\xE9 pierde de forma aplastante
       sin ganar ning\xFAn set."
     audio: {fileID: 0}

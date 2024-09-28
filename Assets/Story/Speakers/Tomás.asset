@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Tom\xE1s"
   m_EditorClassIdentifier: 
   speakerName: "Tom\xE1s"
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0, g: 0, b: 0, a: 1}
   sprites:
   - {fileID: 1237494578, guid: 4593c375e9d063b43af79eff32e4f171, type: 3}
   - {fileID: 636115454, guid: 4593c375e9d063b43af79eff32e4f171, type: 3}

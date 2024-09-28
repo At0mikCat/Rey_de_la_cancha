@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Miembro del equipo contrario
   m_EditorClassIdentifier: 
   speakerName: Miembro del otro equipo
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0, g: 0, b: 0, a: 0}
   sprites:
   - {fileID: 21300000, guid: 82ac8bc777cd50b498fd9bd567bb872b, type: 3}
   prefab: {fileID: 0}
