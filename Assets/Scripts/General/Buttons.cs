@@ -85,13 +85,13 @@ public class Buttons : MonoBehaviour
     public void ganasvolleytercerpartido()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("16.a continuaci�n");
+        SceneManager.LoadScene("16.a continuacion");
     }
 
     public void pierdesvolleytercerpartido()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("16.a continuaci�n");
+        SceneManager.LoadScene("16.a continuacion");
     }
 
     public void ganasvolleycuartopartido()

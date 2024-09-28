@@ -2,12 +2,11 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using static UnityEngine.Rendering.DebugUI;
 
 public class GameManager : MonoBehaviour
 {
-    public static int RedScore = 0;
-    public static int BlueScore = 0;
+    public int RedScore = 0;
+    public int BlueScore = 0;
 
     public TextMeshProUGUI RedScoreText;
     public TextMeshProUGUI BlueScoreText;
