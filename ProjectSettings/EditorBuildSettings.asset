@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Juego/CircuitTraining 1.unity
     guid: 3795241f994bfe448b25c8571c3018a5
   - enabled: 1
+    path: Assets/Scenes/9.5a - Transicion partido.unity
+    guid: 39b4cfdcc6447b7499817e10c5bab8b3
+  - enabled: 1
     path: Assets/Scenes/Juego/No Hablar/11.b - continuacion.unity
     guid: 8a1ebffded4554d4ca8b010644ed1686
   - enabled: 1

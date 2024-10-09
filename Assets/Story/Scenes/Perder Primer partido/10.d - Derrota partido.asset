@@ -13,13 +13,6 @@ MonoBehaviour:
   m_Name: 10.d - Derrota partido
   m_EditorClassIdentifier: 
   sentences:
-  - text: "Al d\xEDa siguiente, unas horas antes de que Jos\xE9 y Tom\xE1s se juntaran,
-      Tom\xE1s junto a su equipo celebran un partido amistoso."
-    audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: "El partido lamentablemente termina en una derrota para el equipo de Tom\xE1s."
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
@@ -155,22 +148,12 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Chicos...
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 38844710a90b7f64dbb1ee3aa17323e5, type: 2}
-      spriteIndex: 0
-      actionType: 3
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
     - speaker: {fileID: 11400000, guid: d40a69069d73bac49b59f4162b5c784f, type: 2}
       spriteIndex: 0
       actionType: 1

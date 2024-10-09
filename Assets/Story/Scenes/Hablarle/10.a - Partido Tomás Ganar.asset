@@ -13,15 +13,7 @@ MonoBehaviour:
   m_Name: "10.a - Partido Tom\xE1s Ganar"
   m_EditorClassIdentifier: 
   sentences:
-  - text: "Al d\xEDa siguiente, unas horas antes de que Jos\xE9 y Tom\xE1s se juntaran,
-      Tom\xE1s junto a su equipo celebran un partido amistoso."
-    audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Comienza el partido de Tomas, el cual a pesar de ser un partido amistoso,
-      logran ganar dos sets sin complicaciones.
+  - text: A pesar de ser un partido amistoso, logran ganar dos sets sin complicaciones.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 68eac522f1e6df64b8e2ebc755e6f8bd, type: 2}
     actions: []

@@ -105,12 +105,22 @@ public class Buttons : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("19.a - continuacion");
     }
-
+    public void Partido95Aganar()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("9.5.a - Continuacion Ganar");
+    }
+    public void Partido95Aperder()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("9.5.a - Continuacion perder");
+    }
     public void remate13Bganar()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("13.b - continuacion");
     }
+    
 
     public void remate13Bperder()
     {

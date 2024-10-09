@@ -19,7 +19,10 @@ public class MinigameSceneController : MonoBehaviour
         {
             SceneManager.LoadScene("CircuitTraining");
         }
-
+        if (GameController.currentScene.name == "9.5a - Transicion")
+        {
+            SceneManager.LoadScene("9.5a - Transicion partido");
+        }
         if (GameController.currentScene.name == "11.b cambio de escena")
         {
             SceneManager.LoadScene("11.b cambio de escena");
